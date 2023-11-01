@@ -1,0 +1,82 @@
+.topbar {
+    display: flex;
+    justify-content: space-between
+}
+
+.logo {
+    width: 200px
+}
+
+.hero {
+    width: 100%;
+    margin-top: 200px
+}
+
+.socials {
+    display: flex;
+    justify-content: flex-end
+}
+
+.social {
+    width: 250px
+}
+
+.awareness {
+    position: absolute;
+    width: 500px;
+    right: 87px
+}
+
+.fren,
+.member,
+.address {
+    width: 100%
+}
+
+.etherscan {
+    width: 250px;
+    position: absolute;
+    right: 142px;
+    top: 208px
+}
+
+.addressRow {
+    position: relative
+}
+
+.charity,
+.mc,
+.graph {
+    width: 100%
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px
+}
+
+.grid-item {
+    padding: 20px;
+    width: 100%
+}
+
+@media only screen and (max-width: 481px) {
+    .logo,
+    .social {
+        width: 100px
+    }
+    .hero {
+        margin-top: 64px
+    }
+    .awareness {
+        width: 200px;
+        right: 10px
+    }
+    .etherscan {
+        width: 90px;
+        right: 6px;
+        top: 46px
+    }
+}
